@@ -2,6 +2,8 @@
 
 ### __Description:__ A ES6 package that check equality with types by stricts and normals
 
+![Logo](../Icon/Logo.png)
+
 # Import
 ```javascript 
 import {} from "type-equality";
