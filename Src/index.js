@@ -1,3 +1,7 @@
+/**
+ * @param {string} msg
+ */
+
 const TypErr = (msg)  => {
     throw new TypeError(msg); // Added this function to throw error in ternary operator
 }
@@ -32,12 +36,20 @@ const IsNotEqaulTo = {
     }
 };
 
+/**
+ * @param {string} mode
+ */
+
 const SeDefaultTo = (mode) => {
     const set = ["Stricts", "Normals"]; //Valid Mode Set
     return set.includes(mode) ? 
         (IsEqualTo.Mode = mode, IsNotEqaulTo.Mode = mode) //check if set contain mode set IsEqaulTo and IsNotEqualTo
         : TypErr("Invalid SetDefaultTo Mode"); //throw TypeError "Invalid SetDefaultTo Mode"
 };
+
+/**
+ * @param {boolean} bool
+ */
 
 const ShowMode = (bool) => {
     return typeof(bool) === "boolean" ?  //Check if argument is boolean
