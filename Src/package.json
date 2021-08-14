@@ -15,5 +15,9 @@
     "readme": "../Data/README.md",
     "markdown": "github",
     "type": "module",
-    "license": "MIT"
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/stamp-cmd/type-equality"
+    }
 }
