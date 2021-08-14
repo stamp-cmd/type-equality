@@ -1,0 +1,19 @@
+{
+    "name": "type-equality",
+    "version": "1.0.0",
+    "description": "A package that check equality with types",
+    "main": "index.js",
+    "bin": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": ["type-equality", "type", "equality", "stricts", "normals"],
+    "author": {
+        "name": "stampkan",
+        "email": "stampkantanatlaptop@hotmail.com"
+    },
+    "readme": "../Data/README.md",
+    "markdown": "github",
+    "type": "module",
+    "license": "MIT"
+}
