@@ -2,6 +2,11 @@
 
 ### __Description:__ A ES6 package that check equality with types by stricts and normals
 
+# Import
+```javascript 
+import {} from "type-equality";
+```
+
 # IsEqualTo
 ### Check equality with types such as normals, stricts and default
 
