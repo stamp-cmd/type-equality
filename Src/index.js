@@ -45,3 +45,11 @@ const ShowMode = (bool) => {
         + "IsNotEqualTo: " + IsNotEqaulTo.Mode) //return IsNotEqualTo's Mode
         : TypErr("Invalid ShowMode Argument"); //throw TypeError "Invalid ShowMode Argument"
 };
+
+export {
+    ShowMode,
+    SeDefaultTo,
+    TypErr, //This actually suppose to be built-in
+    IsEqualTo,
+    IsNotEqaulTo
+}
