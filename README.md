@@ -6,8 +6,11 @@
 
 # Import
 ```javascript 
+npm i type-equality
+
 import {} from "type-equality";
 ```
+
 
 # IsEqualTo
 ### Check equality with types such as normals, stricts and default
