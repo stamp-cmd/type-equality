@@ -1,3 +1,5 @@
+# WARNING: PACKAGE IS UNDERCONSTRUCTION
+
 # __TYPE-EQUALITY README__
 
 ### __Description:__ A ES6 package that check equality with types by stricts and normals
