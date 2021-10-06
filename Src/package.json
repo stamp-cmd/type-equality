@@ -12,7 +12,7 @@
         "name": "stampkan",
         "email": "stampkantanatlaptop@hotmail.com"
     },
-    "readme": "../Data/README.md",
+    "readme": "../README.md",
     "markdown": "github",
     "type": "module",
     "license": "MIT",
