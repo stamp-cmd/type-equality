@@ -58,10 +58,8 @@ const ShowMode = (bool) => {
         : TypErr("Invalid ShowMode Argument"); //throw TypeError "Invalid ShowMode Argument"
 };
 
-export {
-    ShowMode,
-    SeDefaultTo,
-    TypErr, //This actually suppose to be built-in
-    IsEqualTo,
-    IsNotEqaulTo
-}
+module.ShowMode = ShowMode
+module.SetDefault = SetDefaultTo
+module.TypErr = TypErr // Bonus package
+module.IsEqualTo = IsEqualTo
+module.IsNotEqualTo = IsNotEqualTo
